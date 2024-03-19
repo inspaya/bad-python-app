@@ -15,7 +15,7 @@ jobs:
       - checkout
       - jq/install
       - run: 
-          name: "Semgrep scan"
+          name: "Semgrep scan on CircleCI"
           command: |
             echo $SEMGREP_BASELINE_REF
             echo $CIRCLE_BRANCH
